@@ -1,0 +1,257 @@
+
+
+#previousNextButtons {
+	position: absolute;
+	top: 70px;
+	right: 18px;
+	width: 121px;
+	height: 19px;
+	}
+	#previousNextButtons li { float: left; }
+		#previousNextButtons #previous a {
+			display: block;
+			width: 62px;
+				w\idth: 61px;
+			height: 19px;
+			border-right: 1px solid #ccc;
+			background: url(../../images/content/search-detail/previous.gif) 0px 3px no-repeat;
+			}
+		#previousNextButtons #next a {
+			display: block;
+			width: 59px;
+			height: 19px;
+			background: url(../../images/content/search-detail/next.gif) 12px 3px no-repeat;
+			}
+			
+			#previousNextButtons #previous a:hover { background-position: 0px -17px; }
+			#previousNextButtons #next a:hover { background-position: 12px -17px; }
+			
+			/* inactive states */
+			#previousNextButtons #previous a#inactive { background-position: 0px -37px; }
+			#previousNextButtons #next a#inactive { background-position: 12px -37px; }
+			
+			
+			#previousNextButtons li a span { display: none; }
+
+#content h1 { *margin-bottom: 8px; }
+
+/* Styles for the detail tabs */
+
+#detailTabs {
+	margin-left: -19px;
+	clear: both;
+	width:272px;
+}
+
+#detailTabs li {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+#detailTabs li a {
+	display: block;
+}
+
+#detailTabs li a span {
+	display: none;
+}
+
+#detailTabs li a#generalInfoTab {
+	width: 136px;
+	height: 32px;
+	background: url("../../images/content/search-detail/general-info-tab.jpg");
+}
+
+#detailTabs li a#contactInfoTab {
+	width: 136px;
+	height: 32px;
+	background: url("../../images/content/search-detail/contact-info-tab.jpg");
+}
+
+#detailTabs li a#generalInfoTab:hover { background: url("../../images/content/search-detail/general-info-tab_over.jpg"); }
+#detailTabs li a#generalInfoTab.active { background: url("../../images/content/search-detail/general-info-tab_active.jpg") !important; cursor: default; }
+
+#detailTabs li a#contactInfoTab:hover { background: url("../../images/content/search-detail/contact-info-tab_over.jpg"); }
+#detailTabs li a#contactInfoTab.active { background: url("../../images/content/search-detail/contact-info-tab_active.jpg") !important; cursor: default; }
+
+				
+/* Styles for the main details area */
+
+#generalInfo, #contactInfo {
+	width: 230px;
+}
+
+.mainFocusDetails 
+{
+	position:relative;
+	border: solid 5px #ccc;
+	margin: 8px 0 0 0;
+	padding:0;
+	font-size: .8em;
+	background: #f0f0f0;
+	}
+	
+	.mainFocusText
+	{
+		float:right;
+		width:251px;
+		height:300px;
+		padding-bottom:20px;
+	}
+	span.clear
+	{
+		display:block; clear:both;
+	}
+	
+	.mainFocusDetails h2 {
+		color: #000;
+		font-size: 1.3em;
+		margin: 0 0 4px 0;
+		}
+	.mainFocusDetails h3 {
+		color: #333;
+		font-size: 1em;
+		}
+	.mainFocusDetails ul li { line-height: 16px; }
+	
+	.mainFocusDetails div.dottedDivider {
+		height: 20px;
+		background: url(../../images/content/bg-dots.gif) 0px 10px repeat-x;
+		}
+	
+	.mainFocusImage {
+		width: 320px;
+		height: 262px;
+		background-color:#fff;
+		float:left;
+		border: 1px solid #215693;
+		text-align:center;
+		}
+		
+		.imageGalleryNav 
+		{
+			text-align:left;
+			width: 320px;
+			height: 22px;
+			background: #0e3769;
+			position:absolute;
+			left:1px;
+			top:242px;
+			}
+			.imageGalleryNav li {
+				float: left;
+				height: 22px;
+				}
+				.imageGalleryNav li a {
+					float: left;
+					display: block;
+					width: 25px;
+						w\idth: 24px;
+					height: 22px;
+						he\ight: 19px;
+					color: #fff;
+					font-size: .9em;
+					font-weight: bold;
+					padding-top: 3px;
+					border-right: 1px solid #0e3769;
+					text-align: center;
+					text-decoration: none;
+					background: #16437a;
+					}
+					.imageGalleryNav li a:hover, .imageGalleryNav li.selectedImage a{ background: #215693; }
+			
+					.imageGalleryNav li.previousImage a, .imageGalleryNav li.nextImage a {
+						width: 60px;
+							he\ight: 20px;
+						padding-top: 2px;
+						color: #ccc;
+						font-weight: normal;
+						text-align: left;
+						border-right: none;
+						background: #0e3769;
+						}
+						.imageGalleryNav li.previousImage a {
+							w\idth: 41px;
+							padding-left: 19px;
+							}
+						.imageGalleryNav li.nextImage a {
+							w\idth: 49px;
+							padding-left: 11px;
+							}
+						.imageGalleryNav li.previousImage a:hover, .imageGalleryNav li.nextImage a:hover { color: #66ccff; }
+						.imageGalleryNav li.previousImage a span, .imageGalleryNav li.nextImage a span {
+							font-size: 1.1em;
+							font-weight: bold;
+							}
+							
+/* innerContent styles */
+.innerContent { padding: 15px 15px 0 15px; }
+.innerContent div.buttonRow {
+	height: 58px;
+		he\ight: 43px;
+	margin: 0;
+	padding: 15px 0 0 0;
+	border-top: none;
+	border-bottom: solid 1px #ccc;
+	}
+.innerContent div.buttonRow input { margin-right: 5px; }
+.innerContent div.introText { color: #333; font-size: 1.1em;	}
+
+
+/* room dimensions section styles */
+table.roomDimensions { width: 350px; }
+	table.roomDimensions tr {  }
+		table.roomDimensions tr td { padding: 3px 0 3px 0; }
+		table.roomDimensions tr td.heading { color: #666666; }
+		
+		table.roomDimensions tr td.height strong,
+		table.roomDimensions tr td.width strong,
+		table.roomDimensions tr td.squareFootage strong { color: #999; }
+		
+		
+/* community section styles */
+table.communityTable {  }
+	table.communityTable tr td.heading { width: 153px; }
+	
+p.locationDetail { padding: 0; background: none; }
+
+/* legal section styles */
+table.legalTable { margin-bottom: 15px; }
+	table.legalTable tr td.heading {
+		width: 33px;
+		color: #666666;
+		}
+
+/* mechanical section styles */
+table.mechanicalTable {  }
+	table.mechanicalTable tr td.heading { width: 103px; }
+
+/* financial section styles */
+table.financialTable {  }
+	table.financialTable tr td.heading { width: 118px; }
+
+/* documents section styles */
+ul.documentsList { margin-bottom: 15px; }
+	ul.documentsList li {
+		position: relative;
+		padding: 4px 0 5px 0;
+		background: url(../../images/content/bg-dots.gif) 0px 100% repeat-x;
+		}
+		ul.documentsList li.lastDocument { background: none; }
+		ul.documentsList li a {
+			color: #336699;
+			font-weight: bold;
+			}
+			ul.documentsList li a span {
+				color: #666666;
+				font-weight: normal;
+				}
+/* open house result styles */				
+.OpenHouseBanner {
+	background:#c9e0f3; 
+	height:38px;
+	margin-top: 3px;
+	line-height: 1em;
+	border-top: 1px solid #a4c1dd;
+	border-bottom: 1px solid #a4c1dd;}

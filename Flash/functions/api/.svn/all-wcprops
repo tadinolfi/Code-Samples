@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/SendLabs/!svn/ver/35/SL7/admin/functions/api
+END
+subscribers.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SendLabs/!svn/ver/17/SL7/admin/functions/api/subscribers.php
+END
+customfields_date.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields_date.php
+END
+settings.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/settings.php
+END
+segment.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/segment.php
+END
+customfields.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields.php
+END
+api.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/api.php
+END
+customfields_dropdown.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields_dropdown.php
+END
+forms.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/SendLabs/!svn/ver/21/SL7/admin/functions/api/forms.php
+END
+stats.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/SendLabs/!svn/ver/18/SL7/admin/functions/api/stats.php
+END
+authentication.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/authentication.php
+END
+autoresponders.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/autoresponders.php
+END
+module_trackerfactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/module_trackerfactory.php
+END
+triggeremails.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/triggeremails.php
+END
+bounce.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/bounce.php
+END
+customfields_radiobutton.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields_radiobutton.php
+END
+bounceadmin.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SendLabs/!svn/ver/33/SL7/admin/functions/api/bounceadmin.php
+END
+upgrade.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/upgrade.php
+END
+credits.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SendLabs/!svn/ver/35/SL7/admin/functions/api/credits.php
+END
+seedlist.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SendLabs/!svn/ver/21/SL7/admin/functions/api/seedlist.php
+END
+jobs_send.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SendLabs/!svn/ver/21/SL7/admin/functions/api/jobs_send.php
+END
+spam_check.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/spam_check.php
+END
+jobs_triggeremails.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/jobs_triggeremails.php
+END
+folders.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/folders.php
+END
+ss_email.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SendLabs/!svn/ver/22/SL7/admin/functions/api/ss_email.php
+END
+newsletters.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/newsletters.php
+END
+design_rules_check.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/design_rules_check.php
+END
+lists.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/lists.php
+END
+captcha.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/captcha.php
+END
+templates.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/templates.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/SendLabs/!svn/ver/34/SL7/admin/functions/api/user.php
+END
+jobs_autoresponders.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/jobs_autoresponders.php
+END
+jobs.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/jobs.php
+END
+jobs_bounce.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/jobs_bounce.php
+END
+customfields_number.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields_number.php
+END
+module_factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/module_factory.php
+END
+customfields_text.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields_text.php
+END
+customfields_checkbox.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields_checkbox.php
+END
+customfields_textarea.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/customfields_textarea.php
+END
+useractivitylog.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/useractivitylog.php
+END
+send.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SendLabs/!svn/ver/2/SL7/admin/functions/api/send.php
+END

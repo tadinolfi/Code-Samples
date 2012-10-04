@@ -1,0 +1,78 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="dashboard.master.cs" Inherits="myazh_dashboard" %>
+
+<%@ Register src="../App_Controls/DashboardFooter.ascx" tagname="DashboardFooter" tagprefix="uc1" %>
+<%@ Register src="../App_Controls/Footer.ascx" tagname="Footer" tagprefix="uc2" %>
+
+<%@ Register src="../App_Controls/TopBar.ascx" tagname="TopBar" tagprefix="uc3" %>
+
+<%@ Register src="../App_Controls/QuickSearch.ascx" tagname="QuickSearch" tagprefix="uc4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head runat="server">
+
+	<title>A Zillion Homes</title>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="all" />
+	<meta name="revisit-after" content="10 days" />
+	<meta name="distribution" content="global" />
+	<meta http-equiv="Content-Language" content="en-us" />
+	<meta name="language" content="English" />
+	<meta name="copyright" content="Copyright 2008 - A Zillion Homes" />
+	<link href="http://www.azillionhomes.com/" rel="top" />
+
+	<style type="text/css">
+		@import "../includes/css/base.css";
+		@import "../includes/css/dashboard.css";
+		@import "../includes/css/modaldbox.css";
+		@import "../includes/css/rollovers.css";
+	</style>
+	
+	<link rel="stylesheet" type="text/css" href="../includes/css/print.css" media="print" />
+	<asp:ContentPlaceHolder ID="headContent" runat="server"></asp:ContentPlaceHolder>
+	<!--[if lte IE 6]>
+	    <link rel="stylesheet" media="all" href="/includes/css/IE/ie6.css" />
+	<![endif]-->
+</head>
+<body id="bodyTag" runat="server">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <a name="top"></a>
+        <div id="envelope">
+	        <uc3:TopBar ID="TopBar1" runat="server" />
+	        <asp:UpdatePanel ID="pnlUpdate" runat="server">
+	            <ContentTemplate>
+	            <div class="dashboardSearches">
+	                <asp:LinkButton ID="lnkNewSearch" runat="server" Text="Open Search" CssClass="dashboardSearchLink" onclick="lnkNewSearch_Click" />    
+	                <asp:Panel ID="pnlSearches" runat="server" Visible="false" CssClass="searchPanel">
+	                    <uc4:QuickSearch ID="QuickSearch1" runat="server" ListingTypeID="1" />
+	                    <uc4:QuickSearch ID="QuickSearch2" runat="server" ListingTypeID="2" />
+	                    <uc4:QuickSearch ID="QuickSearch3" runat="server" ListingTypeID="3" />
+	                    <uc4:QuickSearch ID="QuickSearch4" runat="server" ListingTypeID="4" />
+	                </asp:Panel>
+	            </div>
+	        </ContentTemplate>
+	        </asp:UpdatePanel>
+            <div id="content">
+		        <asp:ContentPlaceHolder ID="dashboardContent" runat="server"></asp:ContentPlaceHolder>
+	            <div style="clear: both;"></div>
+	        </div>
+	        <uc1:DashboardFooter ID="DashboardFooter1" runat="server" />
+	        <uc2:Footer ID="Footer1" runat="server" />
+        </div> 
+    </form>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-6524282-1");
+            pageTracker._trackPageview();
+        } catch (err) { }
+    </script>
+</body>
+</html>

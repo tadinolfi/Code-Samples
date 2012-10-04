@@ -1,0 +1,14 @@
+﻿#content #innerContent .loginForm {width:200px;}
+.signUpForm {width:500px;}
+.signUpForm .formRow {width:490px;}
+.loginForm .loginRow {margin:0; padding:0;}
+.loginRow input {width:180px;}
+
+#ctl00_mainContent_chkTerms {border:none;}
+
+.myPostingsForms {width:620px;}
+.formRow {width:620px;}
+a.helpIcon {left:440px;}
+
+a.yes {text-indent:0;}
+a.no {text-indent:0;}

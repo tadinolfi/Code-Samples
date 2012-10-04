@@ -1,0 +1,182 @@
+
+/* main navigation */
+ul#mainNavigation {
+	width: 199px;
+	margin-left: 1px;
+	border-top: 1px solid #4a6e9a;
+	}
+	ul#mainNavigation li {
+		width: 199px;
+		float: left;
+		border-bottom: 1px solid #3a6495;
+		}
+		ul#mainNavigation li a {
+			float: left;
+			width: 199px;
+			height: 80px;
+			display: block;
+			}
+			
+		.btnRentals a { background: url(../../images/navigation/rentals.gif) 0px 0px no-repeat; }
+		.btnSales a { background: url(../../images/navigation/sales.gif) 0px 0px no-repeat; }
+		.btnOpenHouses a { background: url(../../images/navigation/open-houses.gif) 0px 0px no-repeat; }
+		.btnAuctions a { background: url(../../images/navigation/auctions.gif) 0px 0px no-repeat; }
+		
+		/* dashboard navigation */
+		.btnWelcome a { background: url(../../images/navigation/welcome.gif) 0px 0px no-repeat; }
+		.btnMyAccount a { background: url(../../images/navigation/my-account.gif) 0px 0px no-repeat; }
+		.btnMyPostings a { background: url(../../images/navigation/my-postings.gif) 0px 0px no-repeat; }
+		.btnMyReports a { background: url(../../images/navigation/my-reports.gif) 0px 0px no-repeat; }
+			
+		ul#mainNavigation li a:hover { background-position: 0px -80px; }
+		ul#mainNavigation li a.selectedMain { background-position: 0px -160px; }
+		
+		ul#mainNavigation li a span { display: none; }
+		
+		
+/* left hand quick search navigation styles */
+li.withQuickSearch a.selectedMain { height: 67px; }
+	
+.quickSearch {
+	padding: 0 22px 30px 22px;
+	background: #0e3769;
+	}
+	
+	.quickSearch input, .quickSearch select {
+		width: 153px;
+			w\idth: 146px;
+		height: 22px;
+			he\ight: 18px;
+		color: #666666;
+		font-size: .9em;
+		margin-bottom: 3px;
+		padding: 1px 1px 1px 4px;
+		border: 1px solid #7f9db9;
+		}
+		
+		.quickSearch input { padding-top: 2px; he\ight: 17px; }
+		.quickSearch select { w\idth: 153px; padding-left: 0px; }
+		.quickSearch select option { padding-left: 4px; }
+		
+		.quickSearch select.minMax { width: 75px; w\idth: 75px; } 
+		
+		/* for Opera: resizing selects */
+			html:first-child .quickSearch select { width: 151px; w\idth: 151px; }
+			html:first-child .quickSearch select.minMax { width: 73px; w\idth: 73px; }
+		/* end Opera work around */
+		
+		.quickSearch select.priceMin { margin-right: 4px; }
+		
+		ul#mainNavigation li .quickSearch input.quickSearchButton{
+			width: auto;
+			height: auto;
+			border: none;
+			margin-top: 7px;
+			padding: 0 0 0 0;
+			}
+		
+	ul#mainNavigation li .quickSearch a.advancedSearchLink{
+		float: right;
+		width: auto;
+		height: auto;
+		color: #fff;
+		margin-top: 14px;
+		background: none;
+		}
+		.quickSearch a.advancedSearchLink strong { color: #71cef5; }
+		.quickSearch a.advancedSearchLink:hover { color: #71cef5; }
+		.quickSearch a.advancedSearchLink:hover strong { color: #fff; }
+				
+		
+/* top secondary  navigation */
+ul#secondaryNavigation {
+	position: absolute;
+	top: 0px;
+	right: 200px;
+	height: 95px;
+	z-index: 10;
+	}
+	ul#secondaryNavigation li {
+		float: left;
+		height: 95px;
+		}
+	ul#secondaryNavigation li a {
+		float: left;
+		display: block;
+		height: 95px;
+		}
+		
+		ul#secondaryNavigation li.btnAboutUs a {
+			width: 91px;
+			background: url(../../images/navigation/about-us.gif) 0px 0px no-repeat;
+			}
+		ul#secondaryNavigation li.btnForum a {
+			width: 72px;
+			background: url(../../images/navigation/forum.gif) 0px 0px no-repeat;
+			}
+		ul#secondaryNavigation li.btnSignUp a {
+			width: 83px;
+			background: url(../../images/navigation/sign-up.gif) 0px 0px no-repeat;
+			}
+		ul#secondaryNavigation li.btnMyAZH a {
+			width: 83px;
+			background: url(../../images/navigation/my-azh.gif) 0px 0px no-repeat;
+			}
+		ul#secondaryNavigation li.btnLogin a {
+			width: 85px;
+			background: url(../../images/navigation/login.gif) 0px 0px no-repeat;
+			}
+		ul#secondaryNavigation li.btnLogout a {
+			width: 85px;
+			background: url(../../images/navigation/logout.gif) 0px 0px no-repeat;
+			}
+		ul#secondaryNavigation li.btnAZH a {
+			width: 92px;
+			background: url(../../images/navigation/my-azh.gif) 0px 0px no-repeat;
+			}	
+		ul#secondaryNavigation li.btnSavedSearches a {
+			width: 135px;
+			background: url(../../images/navigation/saved-searches.gif) 0px 0px no-repeat;
+			}
+			
+		
+		ul#secondaryNavigation li a:hover { background-position: 0px -95px; }
+		ul#secondaryNavigation li a.selectedMain{ background-position: 0px -190px; }
+			
+		ul#secondaryNavigation li a span { display: none; }
+
+
+/* content navigation for search details and secondary nav pages */		
+ul#jumpLinks 
+{
+	clear:both;
+	margin: 0 0 18px 0;
+	height: 21px;
+	border-bottom: 1px solid #ccc;
+	}
+	ul#jumpLinks li {
+		float: left;
+		color: #666666;
+		}
+	ul#jumpLinks li strong {
+		display: block;
+		padding-top: 3px;
+		}
+	ul#jumpLinks li a {
+		float: left;
+		display: block;
+		height: 21px;
+			he\ight: 18px;
+		color: #336699;
+		padding: 3px 10px 0 10px;
+		margin:0;
+		text-decoration: none;
+		border-right: 1px solid #ccc;
+		}
+		ul#jumpLinks li.overview a { padding: 3px 10px 0 7px; }
+		ul#jumpLinks li.last a {
+			border: none;
+			padding: 3px 0 0 10px;
+			}
+		ul#jumpLinks li a:hover { color: #6699cc; }
+		ul#jumpLinks li a#selectedPage { color: #999999; }

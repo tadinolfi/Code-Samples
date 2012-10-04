@@ -1,0 +1,203 @@
+﻿.gridHeader td, .gridColumn td, .gridColumnA td { font-size: 11px; font-weight: 100; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; }
+
+	.gridHeader th {
+		height: 25px;
+		padding: 3px 10px;
+		font-weight: bold;
+		width:auto;
+		background-color:#225794;
+		color:#ffffff;
+		border-left:solid 1px #6699cc;
+		text-align:left;
+	}
+	.gridHeaderGray th {
+		height: 35px;
+		padding: 3px 10px;
+		font-weight: bold;
+		width:auto;
+		background-color:#999;
+		color:#ffffff;
+		border-left:solid 1px #c6c6c6;
+		text-align:left;
+	}
+	.gridColumn td {
+		height: 25px;
+		padding: 5px 10px 5px 10px;
+		width:auto;
+		background-color:#4F82BB;
+		color:#ffffff;
+		border-left:solid 1px #6699cc;
+		text-align:left;
+	
+	}
+	
+	.gridColumnA td {
+		height: 25px;
+		padding: 5px 10px 5px 10px;
+		width:100%;
+		background-color:#3e72ad;
+		color:#ffffff;
+		border-left:solid 1px #6699cc;
+		text-align:left;
+		
+	}
+	
+	.gridColumnA  td a {
+	    text-decoration:underline;
+	    color: #99ccff;
+	}
+	.gridColumn  td a {
+	    text-decoration:underline;
+	    color: #99ccff;
+	    
+	}
+	.gridFooter {
+	width:929px;
+    height: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #93c1e7;
+    background-image: none;
+    text-align: right;
+	padding-right:20px;
+	display:block;
+	
+	}
+	.gridFooter a {
+	float:left;
+	
+	}
+	
+	.gridFooter span {
+	float:left;
+	
+	}
+	
+	
+	
+	
+	.gridPagerResults 
+	{
+	    text-align: right;
+	    padding-right:20px;
+	   
+	    
+	}
+	
+	
+	.gridPagerResults span
+	{
+        padding:4px 6px 4px 7px;
+        font-size: .8em;
+        border-left:solid 1px gray ;
+        border-right:solid 1px gray ;
+        font-weight: bold;
+		background-image: url(../../images/content/bg-search-pagination.gif);
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-position:center bottom;
+        width: 20px;
+        height: 21px;
+        color: gray;
+        
+	}
+	.gridPagerResults a 
+	{
+	    font-size: .8em;
+	    color: #808080;
+        background-color: transparent;
+	    border-right:solid 1px gray ;
+	    padding:4px 6px 4px 6px;
+	    color: #225794;
+	    text-decoration: none;
+	    width: 20px;
+        height: 21px;
+        font-weight: bold;
+       
+	}
+	.ResultsAlternateRow
+	{
+	   background-color: aqua;
+	   color:#196585;
+	}
+	.gridColumnMain  td {
+		height: 25px;
+		padding: 0px 10px;
+		width:80px;
+		background-color:#4F82BB;
+		color:#ffffff;
+		border-left:solid 1px #6699cc;
+		text-align:left;
+	}
+	
+	.gridColumnMainA  td {
+		height: 25px;
+		padding: 0px 10px;		
+		background-color:#3e72ad;
+		color:#ffffff;
+		border-left:solid 1px #6699cc;
+		text-align:left;
+	}
+	
+	.gridColumnMainA  td a {
+	    text-decoration:underline;
+	    color: #99ccff;
+	   padding-left: 10px;
+	}
+	.gridColumnMain  td a {
+	    text-decoration:underline;
+	    color: #99ccff;
+	    padding-left: 10px;
+	}
+	
+	.gridColumnGray td {
+		height: 35px;
+		padding: 0px 10px;		
+		background-color:#ebebeb;
+	    color: #686868;
+		border-left:solid 1px #d7d7d7;
+		text-align:left;
+		font: 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+	
+	.gridColumnGrayA td {
+		height: 35px;
+		padding: 0px 10px;		
+		background-color:#fff;
+	    color: #686868;
+		border-left:solid 1px #d7d7d7;
+		text-align:left;
+		font: 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+	
+	.gridColumnGrayA  td a {
+	    text-decoration:underline;
+	    color: #686868;
+	   padding-left: 10px;
+	}
+	.gridColumnGray  td a {
+	    text-decoration:underline;
+	    color: #686868;
+	    padding-left: 10px;
+	}
+	
+	#ctl00_default_NoPostings {
+		margin: 0;
+		padding: 0;
+	}
+	
+	#ctl00_default_NoPostings p {
+		margin-top: 10px;
+		margin-left: 25px;
+		line-height: 1.8em;
+	}
+	
+	#ctl00_default_NoPostings a {
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+	}
+	
+td.firstCell { border: 0; }

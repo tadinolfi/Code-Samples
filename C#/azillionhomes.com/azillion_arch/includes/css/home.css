@@ -1,0 +1,308 @@
+
+body { background: url(../../images/home/bg-body.gif) 0px 0px repeat-x; }
+
+#flashTop {
+	position: absolute;
+	top: 0px;
+	left: -5px;
+	width: 453px;
+	height: 360px;
+	overflow: hidden;
+	}
+
+	#logo {
+		top: 76px;
+		left: 114px;
+		}
+	#tagline {
+		position: absolute;
+		top: 160px;
+		left: 114px;
+		}
+	
+	.learnWhy {
+		position: absolute;
+		top: 295px;
+		left: 350px;
+		color: #fff;
+		}
+		a#learnWhy:hover { color: #c4e4fe; } 
+		a#learnWhy strong { color: #71cef5; }
+		
+a.advertiseWithUs {
+	position: absolute;
+	display:block;
+	text-indent:-5000px;
+	background-image: url('../../images/home/sign-advertise-with-us.gif');
+	top: 372px;
+	left: 636px;
+	width: 209px;
+	height: 326px;
+	z-index: 99;
+	}		
+	
+	a.advertiseWithUs:link, a.advertiseWithUs:visited { background-position:top;}
+	a.advertiseWithUs:hover, a.advertiseWithUs:active { background-position:bottom;}
+		
+/* main navigation styles */
+#mainNavigation {
+	position: absolute;
+	top: 0px;
+	left: 448px;
+	width: 437px;
+	height: 360px;
+	background: url(../../images/home/bg-main-navigation.jpg) 100% 0px no-repeat;
+	}
+	#mainNavigation div {
+		position: relative;
+		float: left;
+		width: 184px;
+		padding: 0 15px;
+		color: #fff;
+		font-size: 1.1em;
+		border: 1px solid #36659e;
+		border-top: none;
+		}
+		#mainNavigation div a { color: #fff; }
+		#mainNavigation div a.button {
+			display: block;
+			padding: 53px 0 0 0;
+			}
+		
+		#mainNavigation #btnRentals, #mainNavigation #btnSales {height: 120px; z-index: 1; }
+		#mainNavigation #btnOpenHouses, #mainNavigation #btnAuctions {height: 118px;  }
+		#mainNavigation #btnPostWithUs, #mainNavigation #btnLogin {height: 119px; }
+		
+		/* turn off left border for right column buttons */
+		#mainNavigation #btnSales, #mainNavigation #btnAuctions, #mainNavigation #btnLogin {
+			width: 185px;
+			border-left: none;
+			}
+		
+		/* main navigation header buttons */
+		#btnRentals a.button { background: url(../../images/home/rentals-2.gif) 0px 0px no-repeat; }
+		#btnSales a.button { background: url(../../images/home/sales-2.gif) 0px 0px no-repeat; }
+		#btnRentals a.button:hover, #btnSales a.button:hover { background-position: 0px -121px; }
+			
+		#btnOpenHouses a.button { background: url(../../images/home/open-houses-2.gif) 0px 0px no-repeat; }
+		#btnAuctions a.button { background: url(../../images/home/auctions-2.gif) 0px 0px no-repeat; }
+		#btnOpenHouses a.button:hover, #btnAuctions a.button:hover { background-position: 0px -119px; }
+			
+		#btnPostWithUs a.button { background: url(../../images/home/post-with-us-2.gif) 0px 0px no-repeat; }
+		#btnLogin a.button { background: url(../../images/home/login-2.gif) 0px 0px no-repeat; }
+		#btnPostWithUs a.button:hover, #btnLogin a.button:hover { background-position: 0px -120px; }
+			
+			
+		/* quick search links */
+		#mainNavigation div a.quickSearch {
+			position: absolute;
+			bottom: 12px;
+			right: 15px;
+			display: block;
+			font-size: .9em;
+			z-index: 5;
+			}
+			#mainNavigation div a.quickSearch span {
+				color: #71cef5;
+				font-weight: bold;
+				}
+			#mainNavigation li a.quickSearch:hover { color: #c4e4fe; }
+			
+
+/* quick search boxes */
+
+/* generic quick search styles */
+.quickSearchPopUp {
+	position: absolute;
+	width: 182px;
+	height: 181px;
+	padding: 58px 18px 0 14px;
+	background: #0e3769 15px 18px no-repeat;
+	z-index: 10;
+	}
+	
+.qsRentals {
+	top: 0;
+	left: 449px;
+	background-image:url(../../images/home/qs-hdr-rentals.gif);
+	}
+	
+.qsSales {
+	top: 0;
+	left: 664px;
+	background-image:url(../../images/home/qs-hdr-sales.gif);
+	}
+	
+.qsOpenHouses {
+	top: 121px;
+	left: 449px;
+	background-image:url(../../images/home/qs-hdr-open-houses.gif);
+	}
+	
+.qsAuctions {
+	top: 121px;
+	left: 664px;
+	background-image:url(../../images/home/qs-hdr-auctions.gif);
+	}
+
+	.quickSearchPopUp input, .quickSearchPopUp select {
+		width: 182px;
+			w\idth: 175px;
+		height: 22px;
+			he\ight: 18px;
+		color: #666666;
+		font-size: .9em;
+		margin-bottom: 3px;
+		padding: 1px 1px 1px 4px;
+		border: 1px solid #7f9db9;
+		}
+		
+		.startDateEndDate {
+			float: left;
+			width: 86px;
+			}
+			.startDateEndDate a {
+				display: block;
+				float: right;
+				width: 21px;
+				height: 22px;
+				background: url(../../images/content/bg-calendar-icon.gif) 0px 0px no-repeat;
+				}
+				.startDateEndDate a:hover { background-position: 0px -22px; }
+								
+			.startDateContainer { margin-right: 10px; }
+			
+			.endDate { margin-right: 2px; _margin-right: 1px; float: right; }
+			
+		.quickSearchPopUp input.calendar { width: 55px; _width: 50px; }
+		
+		.quickSearchPopUp input { padding-top: 2px; he\ight: 17px; }
+		.quickSearchPopUp select { w\idth: 182px; padding-left: 0px; }
+		.quickSearchPopUp select option { padding-left: 4px; }
+		
+		.quickSearchPopUp input.minMax {display:block; width: 80px; background-image:url(../../images/content/calendar.gif); background-position:right; background-repeat:no-repeat; float:left; overflow:visible; position:absolute; top:58px; left:110px;} 
+		.quickSearchPopUp input.firstMinMax {margin-right:7px; position:relative; top:0; left:0;}
+		.quickSearchPopUp select.minMax { width: 89px; w\idth: 89px; } 
+		
+		/* for Opera: resizing selects */
+			html:first-child .quickSearchPopUp select { width: 180px; w\idth: 180px; }
+			html:first-child .quickSearchPopUp select.minMax { width: 87px; w\idth: 87px; }
+		/* end Opera work around */
+		
+		.quickSearchPopUp select.priceMin { margin-right: 4px; }
+		
+		.quickSearchPopUp input.quickSearchButton {
+			width: auto;
+			height: auto;
+			border: none;
+			margin-top: 7px;
+			padding: 0 15px 0 0;
+			border-right: 0px solid #35629a;
+			}
+		
+	.quickSearchPopUp a.advancedSearchLink {
+		float: right;
+		width: auto;
+		height: auto;
+		color: #fff;
+		font-size: .9em;
+		margin: 14px 7px 0 0;
+		background: none;
+		}
+		.quickSearchPopUp a.advancedSearchLink strong { color: #71cef5; }
+		.quickSearchPopUp a.advancedSearchLink:hover { color: #71cef5; }
+		.quickSearchPopUp a.advancedSearchLink:hover strong { color: #fff; }
+
+/* calendar */
+#qsCalendar {
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	left: 6px;
+	width: 203px;
+	height: 158px;
+	background: #0e3769;
+	z-index: 99;
+	}
+	
+	#calendarHeader {
+		color: #6394c6;
+		text-align: center;
+		margin: 6px 0 4px 0;
+		}
+		#calendarHeader strong.month { color: #fff; }
+		#calendarHeader a.nextMonth { color: #fff; }
+		#calendarHeader a.nextMonth strong { color: #73cef7; }
+	
+	#qsCalendar table {
+		width: 100%;
+		border-collapse: collapse;
+		}
+		#qsCalendar table tr {  }
+		
+			#qsCalendar table tr th, #qsCalendar table tr td {
+				width: 25px;
+				height: 19px;
+				text-align: center;
+				vertical-align: middle;
+				border-bottom: 1px solid #527bad;
+				}
+		
+				#qsCalendar table tr th {
+					color: #fff;
+					font-size: .9em;
+					background: url(../../images/content/bg-calendar-th.gif) 0px 100% no-repeat;
+					}
+				#qsCalendar table tr td { color: #ccc; }
+					#qsCalendar table tr td a { display: block; color: #73cef7; }
+					#qsCalendar table tr td a.inactive { color: #cecece; }
+					#qsCalendar table tr td a:hover { color: #fff; }
+					#qsCalendar table tr td.selected { color: #fff; background: #527bad; }
+						#qsCalendar table tr td.selected a { color: #fff; }
+					
+					#qsCalendar table tr th.spacer, #qsCalendar table tr td.spacer { width: 14px; background: none; }
+					
+			#qsCalendar table tr.lastRow td { border: none; }
+					
+/* close button */
+a.close {
+	position: absolute;
+	display: block;
+	top: 2px;
+	right: 4px;
+	color: #fff;
+	font-size: .9em;
+	background: url(../../images/home/bg-close.gif) 100% 3px no-repeat;
+	}
+	a.close:hover {
+		color: #71cef5 !important;
+		background-position: 100% -28px;
+		}
+
+	
+
+#flash {
+	width: 1002px;
+	height: 761px;
+	}
+	
+#footer {
+	clear: both;
+	color: #01883c;
+	padding: 17px 0 0 30px;
+	border:none;
+	margin:0 0 40px 80px;
+	}
+	#footer a { color: #99c43f; }
+	
+	#footerLinks { color: #adcde6; }
+	#footerLinks a:hover, #footerContent a:hover span { color: #fc3; }
+	
+	#footerContent { margin-top: 8px; }
+	#footerContent a#lightfin { background: url(../../images/interface/bg-lightfin.gif) 100% 3px no-repeat; }
+	#footerContent a#lightfin:hover { background-position: 100% -29px; }
+	#footerContent a#lightfin span { display: none; }
+	
+	#footerContent a#theAtomGroup { background: url(../../images/interface/bg-atom.gif) 100% 3px no-repeat; background-position: 65px 3px; padding-right: 12px; }
+	#footerContent a#theAtomGroup:hover { background-position: 100% -29px; }
+	#footerContent a#theAtomGroup span { display: none; }

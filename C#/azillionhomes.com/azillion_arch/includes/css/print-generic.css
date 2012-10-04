@@ -1,0 +1,50 @@
+
+/* print styles for the search details page */
+
+/* a:after { content: " (" attr(href) ") "; } */
+
+#printLogo { display: block; position: absolute; top: 0; left: 0; }
+
+#breakBefore { page-break-before: always; }
+#breakAfter { page-break-after: always; }
+
+#ctl00_logo,
+ul#secondaryNavigation,
+ul#previousNextButtons,
+#leftColumn,
+#rightColumn,
+#footer,
+hr,
+ul.documentsList li a span,
+#jumpLinks,
+.rightAlignFocus { display: none !important; }
+
+#topBar { height: 67px; }
+#content {
+	width: 550px !important;
+	padding: 0;
+	margin: 0;
+	}
+
+#content h1 {
+	height: auto;
+	margin: 15px 0;
+	padding: 0 0 0 0;
+	font-size: 1.1em;
+	}
+	
+#content strong { padding-right: 12px; }
+			
+		
+/* innerContent styles */
+#innerContent { width: 550px; padding: 0; }
+#innerContent div#introText { font-size: 1em !important; }
+#innerContent h2 {  }
+	
+	a.backToTop {
+		font-size: 1px !important;
+		margin: 0;
+		padding: 0;
+		background: none;
+		border-bottom: 1px solid #000 !important;
+		}

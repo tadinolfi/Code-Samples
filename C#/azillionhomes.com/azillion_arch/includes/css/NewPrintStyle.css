@@ -1,0 +1,27 @@
+﻿body { font: 68.75% Tahoma, Arial, Helvetica, sans-serif; color: #333; }
+
+h2 {font-size:140%; margin:0; padding:0;}
+h3, .heading {font-size:100%; color:#666; margin:0; padding:0; font-weight:bold;}
+
+.printContainer {width:680px;}
+.header { margin-bottom:10px;}
+.header img {margin-bottom:10px; display:block; float:left; width:135px; margin-right:65px;}
+.header .details {width:120px; float:left; padding-top:15px;}
+.header strong {display:block; margin:0; padding:0;}
+.header address {display:block; width:130px; float:left; margin:0; padding:15px 0 0 0;}
+.header address span {display:block; margin:0; padding:0;}
+.header .price {display:block; width:208px; float:left; border:1px solid #999; margin:15px 0 0 0; padding:2px 10px; font-size:140%;}
+.header .dates {display:block; width:208px; float:left; border:1px solid #999; margin:1px 0; padding:2px 10px; font-size:110%;}
+
+.contactInfo h3 {font-size:120%; border-bottom:1px solid #ccc; margin-bottom:5px;}
+.contactInfo strong, .contactInfo span {display:block;}
+.contactInfo .phoneurl, .contactInfo address {width:45%; float:left;}
+
+.row {clear:both; border:1px solid #999; border-bottom:none;}
+.overview {padding:10px;}
+.row h2 {border-bottom:1px solid #ccc; padding:10px 0;}
+span.clear {display:block; clear:both;}
+.leftSection {width:329px; margin:0; padding:5px;float:left; }
+.rightSection {width:328px; margin:0; padding:5px; float:left; }
+td {border-bottom:1px dashed #ccc; padding:2px;}
+p {margin:0; padding:2px 0 10px 0; }

@@ -1,0 +1,115 @@
+
+/* print styles for the search details page */
+
+/* a:after { content: " (" attr(href) ") "; } */
+
+#printLogo {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	}
+
+#breakBefore { page-break-before: always; }
+#breakAfter { page-break-after: always; }
+
+#logo,
+ul#secondaryNavigation,
+ul#previousNextButtons,
+#leftColumn,
+#rightColumn,
+#content h1,
+.dottedDivider,
+#imageGalleryNav,
+#buttonRow,
+#jumpLinks,
+#footer,
+.headerIcon,
+.screenLogo,
+hr,
+ul.documentsList li a span,
+a.backToTop,
+a#ctl00_Default_showGeneral_hrefDirections { display: none !important; }
+
+
+#generalInfo, #contactInfo, #contactInfoSpacer { display: block !important; }
+#topBar { height: 67px; }
+#content { width: 100%; border-top: 1px solid #ccc; }
+	
+	#mainFocusDetails {
+		width: 650px;
+			w\idth: 309px;
+		margin: 20px 0 0 0;
+		padding: 0 0 0 341px;
+		background: #fff;
+		border: none;
+		display: block;
+		clear: both;
+		height: 155px;
+		
+		/* reset for IE */
+		*padding: 0 0 0 10px;
+		*w\idth: 640px;
+		}
+	#mainFocusImage {
+		position: absolute;
+		top: -80px;
+		left: auto;
+		right: -42px;
+		*right: -22px;
+		}
+	
+	#generalInfo, #contactInfo {
+		position: absolute;
+		top: 0px;
+		*top: -10px;
+		left: 0px;
+		}
+	#contactInfo {
+		position: absolute;
+		top: -4px;
+		*top: -16px;
+		left: 180px;
+		}
+		
+		
+/* innerContent styles */
+#innerContent { width: 650px; padding: 0; font-size: 1em; }
+#innerContent div#introText { font-size: 1em !important; margin: 0px !important; padding: 0px !important; }
+#innerContent h2 { font-size: 1em !important; padding-bottom: 3px; border-bottom: 2px solid #ccc !important; }
+	
+#innerContent table { margin: 0; }
+	#innerContent table tr { margin: 0; }
+		#innerContent table tr td { width: auto; height: auto; margin: 0; }
+	
+#innerContent table { margin-bottom: 5px !important; border-collapse: collapse; }
+#innerContent table tr td { width: 170px !important; padding: 0 0 0 0 !important; }
+#innerContent table tr td strong { font-weight: normal !important; }
+
+#ctl00_Default_divRentalRequired { float: right; width: 300px; }
+#ctl00_Default_divLease { width: 300px; }
+#ctl00_Default_divInterior { clear: both; padding-top: 5px !important; }
+
+#ctl00_Default_divCondoRequired {  }
+table#ctl00_Default_tblCondoRequired {  }
+
+#ctl00_Default_divExterior { float: right; width: 300px; }
+table#ctl00_Default_tblExterior { width: 300px; }
+
+#ctl00_Default_divInterior { float: right; width: 300px; }
+table#ctl00_Default_tblRoomDimensions { width: 300px; }
+
+#ctl00_Default_divCommunity { width: 300px; }
+table#ctl00_Default_tblCommunity { width: 300px; }
+
+#ctl00_Default_divLegal { width: 300px; }
+table#ctl00_Default_tblLegal { width: 300px; }
+
+#ctl00_Default_divMechanical { width: 300px; }
+table#ctl00_Default_tblMechanical { width: 300px; }
+
+#ctl00_Default_divFinancial { width: 300px; }
+table#ctl00_Default_tblFinancial { width: 300px; }
+
+/* removing documents table */
+#ctl00_Default_divDocuments	{ display: none !important; }

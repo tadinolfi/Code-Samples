@@ -1,0 +1,1 @@
+<input class="FormButton" type="submit" value="%%LNG_SaveAndExit%%">

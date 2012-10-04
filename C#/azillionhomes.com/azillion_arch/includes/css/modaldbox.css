@@ -1,0 +1,115 @@
+﻿#mbox{background-color:#ffffff; padding:8px; border:2px outset #666;}
+#mbm{font-family:sans-serif;font-weight:bold;float:right;padding-bottom:5px;}
+#ol{background-image: url(overlay.png);}
+.dialog {display:none}
+
+* html #ol{background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");}
+
+.modalBackground
+{
+	background-color:#000;
+	filter:alpha(opacity=25);
+	-moz-opacity:.25;
+	opacity:.25;
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	height:1200px;
+}
+
+.modalPopup
+{
+	background-color:#4f82bb;
+	color:#fff;
+	border:2px solid #0e3669;
+	z-index:10;
+	padding:30px;
+}
+
+#innerContent .modalPopup .title, #innerContent .modalPopup h2, #innerContent .modalPopup h3
+{
+	color:#fff;
+}
+
+.scrollPopup
+{
+	height:400px;
+	overflow:scroll;
+}
+
+.modalPopup input, .modalPopup label, .modalPopup .formRow
+{
+	z-index:auto;
+	position:relative;
+	top:0;
+	left:0;
+	color:#333;
+	padding:0;
+}
+
+.modalPopup label, .modalPopup strong, .modalPopup td.heading
+{
+	width:130px;
+	padding-left:10px;
+	font-weight:bold;
+}
+.modalPopup input, .modalPopup select, .modalPopup textarea
+{
+	width:200px;
+}
+
+#content .modalPopup h3
+{
+	color:#fff;
+}
+
+.helpPopup .closeIcon, .modalClose
+{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	background-image:url('../../images/content/modal_close.gif');
+	width:52px;
+	height:29px;
+	text-indent:-5000px;
+}
+
+.manualPopup
+{
+	position:absolute;
+	top:250px;
+	left:300px;
+}
+
+.helpPopup .title
+{
+	display:block;
+	font-weight:bold;
+	font-size:140%;
+	color:#666;
+	border-bottom:1px solid #069;
+	margin-top:10px;
+}
+
+.helpPopup .message
+{
+	display:block;
+	line-height:1.4em;
+	padding:5px 0;
+}
+
+.modalInner h3
+{
+}
+
+.modalInner strong
+{
+	display:inline;
+	width:100px;
+}
+
+.modalInner select, .modalInner input
+                  

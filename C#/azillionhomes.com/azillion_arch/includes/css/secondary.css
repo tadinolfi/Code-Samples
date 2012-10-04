@@ -1,0 +1,310 @@
+
+#content { border-top: none; }
+	
+	.aboutUsTemplate div#content { background: #fff url(../../images/interface/hdr-img-about-us-btm.jpg) 0px 0px no-repeat; }
+	.forumTemplate div#content { background: #fff url(../../images/interface/hdr-img-forum-btm.jpg) 0px 0px no-repeat; }
+	.signUpTemplate div#content { background: #fff url(../../images/interface/hdr-img-sign-up-btm.jpg) 0px 0px no-repeat; }
+	.loginTemplate div#content { background: #fff url(../../images/interface/hdr-img-login-btm.jpg) 0px 0px no-repeat; }
+	.myazhTemplate div#content { background: #fff url(../../images/interface/hdr-img-myazh-btm.jpg) 0px 0px no-repeat; }
+	
+	/* dashboard header image */
+	#dashboardTemplate div#content { background: #fff url(../../images/interface/hdr-img-dashboard.gif) 0px 0px no-repeat; }
+		
+	#content h1 {
+		width: 602px;
+		height: 143px;
+		margin: 0;
+		padding: 0;
+		}
+		#content h1.normal
+		{
+			margin-left:99px;
+			padding-top:25px;
+			height:70px;
+		}
+		h1 span { display: none; }
+		
+		.aboutUsTemplate div#content h1 { background: url(../../images/headers/about-us.gif) 280px 63px no-repeat; }
+		.forumTemplate div#content h1 { background: url(../../images/headers/forum.gif) 280px 63px no-repeat; }
+		.signUpTemplate div#content h1 { background: url(../../images/headers/sign-up.gif) 280px 63px no-repeat; }
+		.loginTemplate div#content h1 { background: url(../../images/headers/login.gif) 280px 63px no-repeat; }
+		.myazhTemplate div#content h1 { background: url(../../images/headers/my-azh.gif) 280px 63px no-repeat; }
+		
+		
+	div#introText {
+		color: #124787;
+		margin: 0 0 10px 0;
+		font: 1.3em Georgia, Times New Roman, Arial;
+		font-weight: bold;
+		}
+		
+/* sign up form styles */
+.signUpForm .formRow {
+	clear: left;
+	position: relative;
+	padding: 8px 30px 8px 30px;
+	background: #fff;
+	font-size:1em;
+	}
+	
+	.signUpForm .captchaRow {
+	clear: left;
+	position: relative;
+	padding: 8px 30px 8px 30px;
+	font-size:1em;
+	margin-bottom:10px;
+	}
+	.signUpForm .altRowColor { background: #ebebeb; }
+	.signUpForm .highlightRowColor { background-color: #9fb2db;}
+	#enterCode { height: auto; }
+
+	.signUpForm .formRow label, .signUpForm .formRow label.wide {
+		display: block;
+		float: left;
+		width: 130px;
+		color: #666666;
+		padding: 3px 0 0 0;
+		font-weight: bold;
+	} 
+
+	.signUpForm .formRow input {
+		width: 200px;
+			w\idth: 198px;
+		height: 20px;
+			he\ight: 18px;
+		color: #666666;
+		border: 1px solid #999;
+		margin-right:10px;
+		}
+		.signUpRow textarea {
+		width: 200px;
+			w\idth: 198px;
+		height: 80px;
+			he\ight: 78px;
+		color: #666666;
+		border: 1px solid #999;
+		}
+	
+	.signUpForm .radioButtons input, .signUpForm .radioButtons label {
+		float: left;
+		width: auto;
+		border:none;
+		}
+		.radioButtons label {
+			display: block;
+			float: left;
+			width: 80px;
+			padding-left: 4px;
+			}
+	.formHeader span.required, .formRow span.required {
+	font-weight: bold;
+	color:#069;
+	display:block;
+	position:absolute;
+	top:7px;
+	left:20px;
+	}
+	
+	.signUpForm ul.checkboxes
+	{
+		margin-left:140px;
+	 	width:482px;
+	}
+	.signUpForm ul.checkboxes li
+	{
+		clear:both;
+	}
+	.signUpForm ul.checkboxes input 
+	{ 
+	   width:20px;
+	   border: 0;
+	   float:none;
+	   display:inline;
+	}
+	.signUpForm ul.checkboxes label 
+	{
+		float:none;
+		display:inline;
+		font-weight:normal;
+	}
+		
+	a.forgotPassword {
+		display: block;
+		height: 28px;
+			he\ight: 21px;
+		margin: 0 0 0 10px;
+		padding: 7px 0 0 10px;
+		border-left: 1px solid #cecece;
+		}
+		
+	/* sign up form in the smaller left column styles */
+	.leftColumn div.signUpRow {
+		clear: left;
+		position: relative;
+		height: 35px;
+			he\ight: 27px;
+		padding: 8px 0 0 0;
+		background: #fff;
+		}
+		.leftColumn div.alternateSignUpRow { background: #ebebeb; }
+	
+	.leftColumn div.signUpRow label {
+		display: block;
+		float: left;
+		width: 127px;
+			w\idth: 117px;
+		color: #666666;
+		padding: 3px 0 0 10px;
+		font-weight: bold;
+		} 
+
+	.leftColumn div.signUpRow input {
+		width: 129px;
+			w\idth: 127px;
+		height: 20px;
+			he\ight: 18px;
+		color: #666666;
+		border: 1px solid #999;
+		}
+		
+	.leftColumn div#buttonRow { margin: 0; }
+	
+	
+/* login form */
+.loginForm { width: 320px; }
+
+.loginForm div.loginError {
+	color: #cc6666;
+	font-weight: bold;
+	padding: 0 0 0 20px;
+	background: url(../../images/content/bg-form-error.gif) 0px 0px no-repeat;
+	}
+	.loginForm div.loginError span.Error { color: #cc6666; }
+
+.loginRow {
+	clear: left;
+	position: relative;
+	height: 35px;
+		he\ight: 27px;
+	padding: 8px 30px 0 0;
+	background: #fff;
+	}
+
+	.loginRow label {
+		display: block;
+		float: left;
+		width: 74px;
+		color: #666666;
+		padding: 3px 0 0 0;
+		font-weight: bold;
+		} 
+
+	.loginRow input {
+		width: 209px;
+		height: 17px;
+		color: #666666;
+		border: 1px solid #999;
+		padding: 2px 0 0 2px;
+		}
+
+	.loginForm div.buttonRow {
+		margin: 0 0 0 74px;
+		border: none;
+		}
+		.loginForm div.buttonRow input {
+			float: none;
+			display: block;
+			}
+	.loginForm .checkbox
+	{
+		clear:both;
+	}
+	.loginForm .checkbox label
+	{
+		display:block;
+		width: 120px;
+		float:left;
+	}
+	
+	.loginForm .checkbox input
+	{
+		display:block;
+		float:right;
+		margin-right:150px;
+		width:20px;
+		border:none;
+	}
+	
+	.loginForm a.forgotPassword {
+		float: none;
+		border: none;
+		width: 209px;
+		margin: 15px 0 0 0;
+		padding: 11px 0 0 0;
+		font-weight: bold;
+		border-top: 1px solid #e5e5e5;
+		}
+		
+/* login form right column focus area */
+.notAMemberFocus {
+	float: right;
+	width: 205px;
+		w\idth: 177px;
+	padding: 0 0 0 27px;
+	border-left: 1px solid #ccc;
+	}
+	.notAMemberFocus p {
+		margin: 0;
+		background: none;
+		}
+		
+	
+/* account information form */
+.accountInfoForm {
+	position: relative;
+	width: 308px;
+	height: 35px;
+		he\ight: 26px;
+	padding: 8px 0 0 0;
+	color: #666666;
+	border-bottom: 1px solid #e5e5e5;
+	}
+	.accountInfoForm label {
+		display: block;
+		float: left;
+		width: 75px;
+		color: #666666;
+		padding-top: 3px;
+		font-weight: bold;
+		}
+		
+	.accountInfoForm span {
+		display: block;
+		float: left;
+		color: #666666;
+		padding-top: 3px;
+		}
+		
+	.accountInfoForm input {
+		width: 209px;
+			w\idth: 203px;
+		height: 21px;
+			he\ight: 17px;
+		color: #666666;
+		padding: 2px 0 0 4px;
+		border: 1px solid #999999;
+		}
+		
+.accountInfoButton { margin: 19px 0; }
+	.accountInfoButton a {
+		float: left;
+		height: 28px;
+		}
+	.accountInfoButton div.spacer {
+		float: left;
+		height: 28px;
+		width: 10px;
+		margin-right: 10px;
+		border-right: 1px solid #ccc;
+		}
+		

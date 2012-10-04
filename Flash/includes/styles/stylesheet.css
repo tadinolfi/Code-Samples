@@ -1,0 +1,1487 @@
+body
+{
+	color: #676767;
+	background-color: #DCDCDC;
+	font: normal 11px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	margin: 0px;
+	padding:0;
+	background-image: url(../../images/gradient.jpg);
+	background-repeat: repeat-x;
+	background-position:0 90px;
+}
+
+.body
+{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.popupBody {
+	background-color:#F3F2E9;
+	color:black;
+	font-size:11px;
+	line-height:1.5;
+	margin:20px;
+	padding:0pt;
+}
+.popupContainer {
+	background-color:#FFFFFF;
+	border:1px solid #CAC7BD;
+	padding:20px;
+}
+
+.helpTip
+{
+	font-size: 11px;
+	line-height: 120%;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	color: black;
+}
+
+form
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+input[type="text"],input[type="password"], textarea
+{
+	border: 1px solid #AAA;
+	border-collapse: collapse;
+}
+
+input[type="checkbox"]
+{
+	margin-top: 2px;
+	margin-bottom: 3px;
+	vertical-align: middle;
+}
+
+.Intro
+{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	padding: 0px 0px 3px 2px;
+}
+
+.Intro div
+{
+	margin: 10px 0px 11px 0px;
+}
+
+.Intro .Button
+{
+	font-size: 11px;
+	width: 150px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.Header {
+	background:#000;
+	display: block;
+	clear: both;
+}
+
+.Header_Top {
+	display: block;
+	clear: both;
+}
+
+.Header_Bottom {
+	display: block;
+	clear: both;
+}
+
+.textlinks a
+{
+	color:#FFF;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: normal;
+	font-size-adjust: none;
+	font-stretch: normal;
+}
+.textlinks a img {
+	text-decoration: underline;
+}
+
+.textlinks
+{
+	color: #008ce1;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: normal;
+	font-size-adjust: none;
+	font-stretch: normal;
+	float: right;
+	clear: right;
+	padding-top:15px;
+	padding-bottom:22px;
+}
+
+.top {
+	color: #7CACDA;
+}
+
+.disabledlink {
+	font-weight: normal;
+	font-size: 11px;
+	color: gray;
+	font-style: normal;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.Heading1
+{
+	color: #F60;
+	font-size: 22px;
+	font-weight: normal;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	padding-bottom: 10px;
+	padding-top:5px;
+	height:45px;
+}
+
+.Heading1 a {
+	font-size:14px;color:#008CE1;
+}
+
+.Heading1 .Heading1Image{float:left;display:inline-block;padding-right:0}
+.Heading1 .Heading1Text{float:left;display:inline-block;padding:14px 8px 0 2px;}
+.Heading1 .IntroMessage{padding-top:14px;text-align:center;margin-right:40px;font-size:14px;margin:0;}
+.Heading1 .IntroMessage a{color:#F60;text-decoration:none;}
+.Heading1 .twitterImage{float:right;width:49px;}
+.Heading1 .TwitterText{float:right;width:156px;color:#008CE1;padding-top:16px;font-size:14px;}
+.Heading1 .TwitterText a{text-decoration:none;}
+.Heading1 .Heading1Links{float:left;padding-top:20px;width:100px;}
+
+
+
+.Heading1 ul,
+.Heading1 ul li,
+.Heading1 ul li a {
+	display: block;
+	width: 100%;
+}
+
+.Heading2, tr.Heading2 td
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #000000;
+	height: 16pt;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-color: #EDECEC;
+	/*padding: 4px 4px 4px 10px;*/
+	background-image: url(../../images/table_bg.gif);
+}
+
+.Heading3
+{
+	PADDING-LEFT: 4pt;
+	FONT-WEIGHT: bold;
+	font-size: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	TEXT-DECORATION: none;
+	
+	border-right:1px solid #E2E2E2;
+}
+
+
+.Heading3 td
+{
+	vertical-align: middle;
+	background-image: url(../../images/table_bg.gif);
+	background-repeat: repeat-x;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	background-color: #e4e4e4;
+	color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+}
+
+.ISSelectReplacement
+{
+	width: 450px;
+	height: 250px;
+}
+
+input.ISSelectSearch
+{
+	width: 447px;
+	font-size: 11px;
+	font-family: Tahoma,Verdana,Helvetica,Sans-Serif;
+	color: #333;
+	border: 1px solid #7F9DB9;
+	margin-top:1px;
+}
+
+.Field,
+.Field50,
+.Field150,
+.Field250,
+.Field300
+{
+	font-size: 11px;
+	color: #333333;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+
+.Field50
+{
+	width: 50px;
+}
+
+.Field150
+{
+	width: 150px;
+}
+
+.Field250
+{
+	width: 250px;
+}
+
+.Field300
+{
+	width: 300px;
+}
+
+.error
+{
+	border: #CD1143 2px solid;
+	font-weight: bold;
+	font-size: 11px;
+	color: #ffffff;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-color: #FCEEF3;
+}
+
+.toolTipBox
+{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 11px;
+	padding: 5px;
+	margin-top: 10px;
+	background-color: #E0ECFF;
+	color: #333333;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.hide
+{
+	display: none;
+	visibility: hidden;
+}
+
+.paging
+{
+	font-size: 8pt;
+	color: white;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.required
+{
+	font-size: 8pt;
+	color: red;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.aside
+{
+	margin: 0;
+	padding: 0;
+	color: #999;
+	font-family: Tahoma,Verdana,Helvetica,Sans-Serif;
+	font-size: 11px;
+}
+
+.PageFooter
+{
+	padding-top: 5px;
+	padding-bottom:20px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 11px;
+	color: #808080;
+	margin:0 40px;
+}
+.PageFooter .PageFooterCopy{width:50%;float:left;}
+.PageFooter .PageFooterLinks{width:50%;float:left;text-align:right;}
+
+.PageFooter a
+{
+	font-size: 11px;
+	color: #676767;
+}
+
+.MidHeading
+{
+	color: #000000;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-color: #F9F9F9;
+	width: 80%;
+	padding: 3px 1px 1px 6px;
+}
+
+.MidHeading img
+{
+	vertical-align: middle;
+}
+
+.RightHeader
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: black;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-color: #EDECEC;
+	padding: 3px 1px 1px 6px;
+	height: 18px;
+}
+
+ul, a
+{
+	color: #333333;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 11px;
+}
+
+label#triggeremails_triggeractions_removelist_enabled_label ul 
+{
+	color: #676767;
+}
+
+.ContentContainer ul li
+{
+	line-height: 170%;
+}
+
+ul.RssFeed {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+ul.RssFeed li {
+	padding-left: 0px;
+	margin-left: 5px;
+}
+
+.Text
+{
+	color: #333333;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 11px;
+	margin-top: 5px;
+}
+
+.CalendarSelect
+{
+	width: 100px;
+}
+
+.CalendarSelectSmall
+{
+	width: 50px;
+}
+
+div.FlashError
+{
+	background-color: #FFECEC;
+	padding: 5px 5px 8px 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+img.FlashError
+{
+	padding-right: 4px;
+	margin-top: -2px;
+}
+
+div.FlashSuccess
+{
+	background-color: #FFF1A8;
+	padding: 5px 5px 8px 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+img.FlashSuccess
+{
+	padding-right: 4px;
+	margin-top: -2px;
+}
+
+.Message
+{
+	background-color: #FFF1A8;
+	font-weight: normal;
+	font-size: 11px;
+	color: #4e4f4f;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	text-decoration: none;
+	/*
+	padding-top: 5px;
+	padding-bottom: 5px;*/
+	padding: 5px;
+	vertical-align: top;
+}
+
+.PageHeader
+{
+	width: 100%;
+	/* border-collapse: collapse; */
+	background-color: #F7F7F7;
+}
+
+.PageHeader .Menu
+{
+	text-align: right;
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	padding-right: 20px;
+	vertical-align: bottom;
+	padding-bottom: 5px;
+}
+
+.PageHeader .Menu A
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.PageHeader .Menu A:hover
+{
+	text-decoration: underline;
+}
+
+.Panel
+{
+	background-color: #F9F9F9;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	border-bottom: 5px solid #F9F9F9;
+}
+
+.Panel a
+{
+	color: #333333;
+}
+
+.Panel td
+{
+	font-size: 11px;
+	height: 25px;
+	/*line-height: 25px;*/
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.PanelContent
+{
+	height: 354px;
+}
+
+.FieldLabel
+{
+	padding: 6px 10px 0px 10px;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	text-decoration: none;
+	vertical-align: top;
+	width: 200px;
+	height: 26px;
+}
+
+.SmallFieldLabel
+{
+	padding: 6px 10px 0px 10px;
+    font-weight: normal;
+    font-size: 11px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+    text-decoration: none;
+    vertical-align: top;
+    width: 120px;
+	height: 26px;
+}
+
+TR.GridRow TD
+{
+	padding: 3px 3px 3px 5px;
+	background-color: #f9f9f9;
+	border-top: solid 1px #FFF;
+	border-left:1px solid #FFF;
+	border-right:1px solid #F3F3F3;
+	border-bottom:1px solid #ECECEC;
+}
+
+TR.GridRowOver TD
+{
+	padding: 3px 3px 3px 5px;
+	background-color: #f3f3f3;
+	border-top: solid 1px #FFF;
+	border-left:1px solid #FFF;
+	border-right:1px solid #F3F3F3;
+	border-bottom:1px solid #ECECEC;
+}
+
+.SmallButton
+{
+	font-size: 11px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-image:url(../../images/btn_createNewMailingList.png);
+	background-position:0 0;
+	width:226px !important;
+	padding-top:9px;
+	padding-bottom:10px;
+	text-align:left;
+	padding-left:44px;
+	border:none;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-color:transparent;
+}
+.SmallDeleteButton{background-image:url(../../images/btn_delete.png);}
+.SmallButton:hover{background-position:0 -39px;}
+
+.Field300
+{
+	font-size: 11px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-image:url(../../images/btn_widest.png);
+	background-position:0 0;
+	width:300px !important;
+	padding-top:9px;
+	padding-bottom:10px;
+	border:none;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-color:transparent;
+}
+.Field300:hover{background-position:0 -34px;}
+
+.FormButton
+{
+	font-size: 11px;
+    width: 80px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.FormButton_wide
+{
+	font-size: 11px;
+	width: 100px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.FormButton{
+	font-size: 11px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-image:url(../../images/btn_mini.png);
+	background-position:0 0;
+	width:109px !important;
+	padding-top:7px;
+	padding-bottom:10px;
+	border:none;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-color:transparent;
+}
+.FormButton:hover{background-position:0 -34px;}
+
+input.YesProcessBounce, .FormButton_wide{
+	font-size: 11px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-image:url(../../images/btn_normal.png);
+	background-color:transparent;
+	background-position:0 0;
+	width:160px !important;
+	padding-top:7px;
+	padding-bottom:10px;
+	border:none;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+input.YesProcessBounce:hover, .FormButton_wide:hover{background-position:0 -34px;}
+
+.FormButton_wide
+{
+	font-size: 11px;
+	width: 100px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.SaveExitButton{
+	font-size: 11px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	background-image:url(../../images/btn_mini.png);
+	background-position:0 0;
+	width:109px !important;
+	padding-top:7px;
+	padding-bottom:10px;
+	border:none;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-color:transparent;
+}
+.SaveExitButton:hover{background-position:0 -34px;}
+
+.FormButton_wider{
+	font-size: 11px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	bbackground-color:transparent;
+	background-image:url(../../images/btn_wider.jpg);
+	background-position:0 0;
+	width:180px !important;
+	padding-top:7px;
+	padding-bottom:10px;
+	border:none;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+.FormButton_wider:hover{background-position:0 -34px;}
+
+.HelpText
+{
+	cursor: help;
+	border-bottom: 1px dotted #28609B;
+}
+
+/* CS Created */
+
+select
+{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	width: 250px;
+}
+
+.DateTimeBox
+{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	margin-bottom: 4px;
+	width: 50px;
+}
+
+.infotiplist, .customfieldlist
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 125%;
+}
+
+.Panel .Gap
+{
+	height: 5px;
+}
+
+.datefield
+{
+	width: 70px;
+	font-size: 11px;
+	color: #333333;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	margin-top: 3px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+}
+
+.UserInfo
+{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	color: #000000;
+	background-color: #FFFDE0;
+	padding: 7px;
+}
+
+.templategroup
+{
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+#tabnav
+{
+	height: 20px;
+	margin: 0;
+	padding-left: 10px;
+	background: url(../../images/tab_bottom.gif) repeat-x bottom;
+}
+
+#tabnav li
+{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+}
+
+#tabnav a:link, #tabnav a:visited
+{
+	float: left;
+	background: #f3f3f3;
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: bold;
+	padding: 2px 10px 2px 10px;
+	margin-right: 4px;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	color: #666;
+}
+
+#tabnav a:link.active, #tabnav a:visited.active
+{
+	border-bottom: 1px solid #fff;
+	background: #fff;
+	color: #000;
+}
+
+#tabnav a:hover
+{
+	background: #fff;
+}
+
+.timePicker
+{
+	font-size: 11px;
+	width: 80px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	color: black;
+	border: 2px inset !important;
+}
+
+.timePicker button {
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	color: black;
+	height: 10px;
+	padding: 0px;
+	margin: 0px;
+	width: 16px;
+}
+
+.imageTag
+{
+	font-size: 11px;
+	background-color: #FFF1A8;
+	border: solid 1px #EDEACA;
+	padding: 20px;
+	line-height: 100%;
+}
+
+.imageTag img
+{
+	margin-bottom: 10px;
+}
+
+.quote
+{
+	border-left: solid 5px #CACACA;
+	padding-left: 20px;
+	line-height: 140%;
+}
+
+.customField
+{
+	background-color: pink;
+}
+
+.emailcredits
+{
+}
+
+
+/* ADDED IN NX 1.1.4 */
+.PanelPlain
+{
+	background-color: #FFFFFF;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	border-bottom: 5px solid #FFFFFF;
+}
+
+.PanelPlain td
+{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+}
+
+.didyouKnowBox, .systemMessageBox
+{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 11px;
+	padding: 5px;
+	border: solid 1px #e3e3e3;
+	background-color: #f4feff;
+	color: #333333;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.spam_notspam {
+	background-color: #00FF00;
+	height:5px;
+}
+.spam_alert {
+	background-color: #FFFF66;
+	height:5px;
+}
+.spam_spam {
+	background-color: #FF0000;
+	height:5px;
+}
+.spam_info {
+	padding: 4px 8px 4px 8px;
+}
+
+/* Interspire Select Replacemnt CSS */
+.ISSelect {
+	background:#FFFFFF none repeat scroll 0%;
+	border:1px solid #7F9DB9;
+	float:left;
+	height:200px;
+	overflow:auto;
+	width:300px;
+}
+
+.ISSelect ul, .ISSelect li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0pt;
+	padding:0pt;
+}
+.ISSelect li {
+	border-bottom:1px solid #FFFFFF;
+	border-top:1px solid #FFFFFF;
+	cursor:default;
+	padding-bottom:0px;
+	padding-left:4px;
+	padding-top:0px;
+}
+.ISSelect li.ISSelectGroup {
+	padding-left:0pt;
+}
+.ISSelect input {
+	vertical-align:middle;
+}
+.ISSelectGroup li {
+	padding-left:20px;
+}
+.ISSelect .ISSelectOptionHover {
+	background:#EFEFEF none repeat scroll 0%;
+}
+.ISSelectGroup div {
+	font-style:italic;
+	font-weight:bold;
+	padding-left:4px;
+}
+.ISSelect li.ISSelectGroup {
+	background:transparent none repeat scroll 0%;
+	border-bottom:0pt none;
+	border-top:0pt none;
+	padding-bottom:0pt;
+}
+.ISSelect .SelectedRow {
+	background:#316AC5 none repeat scroll 0%;
+	border-bottom:1px solid #316AC5;
+	border-top:1px solid #316AC5;
+	color:#FFFFFF;
+}
+
+
+/* ADDED IN NX 1.2.0 */
+
+
+label {
+	cursor: pointer;
+}
+
+/* For the loading indicator on the Statistics page */
+.loading_indicator {
+	position: fixed;
+	top: 0px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+.loading_indicator span {
+	text-align: center;
+	display: block;
+}
+.loading_indicator div {
+	text-align: center;
+	background: #FFF1A8;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11px;
+	padding: 3px;
+}
+
+/* Added in NX 1.3.3 */
+
+.tutorial_example
+{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 9pt;
+	padding: 10px;
+	margin-top: 10px;
+	border: solid 1px #EDEACA;
+	background-color: #FFF1A8;
+	color: #333333;
+	text-decoration: none;
+	width:300px;
+	margin: auto 33% auto 33%;
+}
+
+.center_div
+{
+	margin: auto 33% auto 33%;
+}
+
+.TestModeEnabled
+{
+	font-size: 11px;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	color: #000000;
+	background-color: #E0ECFF;
+	padding: 5px;
+}
+
+.DropShadowContainer {
+	left: 3px;
+	top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	z-index: 1000000;
+	position: relative;
+}
+
+.DropShadowContainer .Shadow1,
+.DropShadowContainer .Shadow3,
+.DropShadowContainer .ItemContainer {
+	left: -1px;
+	top: -1px;
+	position: relative;
+}
+
+.DropShadowContainer .Shadow2 {
+	background: #000;
+}
+
+.DropShadowContainer .Shadow3 {
+	background: #000;
+}
+
+.DropShadowContainer .ItemContainer {
+	background: #008ce1;
+	border: 1px solid #fff;
+}
+
+.PopDownMenuContainer {
+	z-index: 1000;
+}
+
+.DropDownMenu ul, .DropDownMenu li {
+	text-align: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.DropDownMenu a {
+	padding: 4px 10px;
+	display: block;
+	line-height: 1.7;
+	text-decoration: none;
+}
+
+.DropDownMenu a:hover, .DropDownMenu a:hover {
+	background-color: #006bac;
+}
+
+.DropDownMenu li.Break {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+.DropDownMenu hr {
+	color: #cacaca;
+	background-color: #cacaca;
+	height: 1px;
+	border: 0;
+	margin: 2px auto;
+	padding: 0;
+	line-height: 0;
+	font-size: 1px;
+	width: 90%;
+}
+
+.textlinks .ActiveButton {
+	background: #008ce1;
+	border: 1px solid #FFF;
+	border-bottom: 0;
+	margin: 0 1px 0 3px;
+	text-decoration: none !important;
+	z-index: 1000000;
+	position: relative;
+}
+
+.MenuText
+{
+	color: #7cacda;
+	Font-Family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	margin:0pt 2px 0pt 4px;
+	padding:4px 6px;
+}
+
+.loggedinas
+{
+	margin-top: 5px;
+	font-size: 11px;
+}
+
+a.MenuText
+{
+	text-decoration: underline;
+}
+
+#logo
+{
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+
+.ContentContainer {
+	padding: 10px 10px 10px 10px;
+	margin: 20px 16px 10px 16px;
+	background-color: #fff;
+	border: solid 1px #CFCFCF;
+	min-height: 370px;
+}
+
+.BodyContainer
+{
+	margin: 0 10px 10px 10px;
+}
+
+.loginBox td {
+	font-size: 11px;
+	color: #676767;
+}
+.DashboardPanel {
+	border: 5px solid #ececec;
+	margin-bottom: 10px;
+	padding:10px;
+}
+
+.DashboardPanel td {
+	font-size: 11px;
+	color: #000000;
+}
+
+.DashboardPanel .Heading2 {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.DashboardPanel .PanelContent {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.DashboardPanel .PanelContent ul {
+	padding:0px;
+	list-style-position: inside;
+	margin: 0px 0px 0px 20px;
+}
+.DashboardPanel .PanelToggle {
+	padding:4px 5px 0 0;
+}
+
+.DashboardPanel .PanelToggle a {
+	color: gray;
+}
+
+.DashboardPanel .PanelHeader {
+	height: 16px;
+	padding-top: 4px;
+}
+
+div#HomeGettingStarted td.taskComplete a, td.taskComplete {
+	color: #cacaca;
+}
+.LoginError {
+	color: red;
+}
+.pageinfo p {
+	margin-top: 0px;
+	margin-bottom: 11px;
+}
+.message_box {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+ul#interspirerss {
+	list-style-position: outside;
+	margin: 10px 20px;
+	padding: 0px;
+	list-style-type: disc;
+}
+ul#interspirerss li {
+	margin-left: 0px;
+}
+
+ul#popularhelparticles {
+	list-style-position: outside;
+	margin: 10px 20px;
+	padding: 0px;
+	list-style-type: disc;
+}
+ul#popularhelparticles li {
+	margin-left: 0px;
+}
+
+
+.gettingstarted_helpinfo {
+	background-color: #FFF1A8;
+	margin:5px 0px;
+}
+
+.UpgradeNotice {
+	border:5px solid #9BCD96;
+}
+
+.UpgradeNotice .Heading2 {
+	background: #91CB8A url('../../images/upgrade_bg.gif') repeat-x;
+	border-color: #7CB778;
+	border-top: 1px solid #7CB778;
+}
+
+.UpgradeNotice .PanelContent {
+	border-color: #7CB778;
+	padding: 0px;
+}
+
+a#SwitchLinks {
+	color: grey;
+}
+
+table.WISIWYG_Editor_Choices td {
+	line-height: normal;
+	height: auto;
+}
+
+.EmptyRow
+{
+	background-color: #FFFFFF;
+	height: 10px !important;
+}
+
+a.DropDownArrow {
+	text-decoration: none;
+}
+
+textarea.ContentsTextEditor {
+	font-family: "Bitstream Vera Sans Mono", monaco, "Courier New", courier, monospace; 
+	font-weight: normal; color: #000; 
+	height:300px;
+	width:75%;
+	background: url('../../images/textEntryGuide.gif') no-repeat; 
+}
+
+.TemplateHeading {
+	font-size:14px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
+.TemplateBox {
+	border:5px solid white;
+	color:#333333;
+	display:inline;
+	float:left;
+	font-family:Tahoma;
+	font-size:11px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	height:220px;
+	line-height:normal;
+	margin-top:5px;
+	padding:5px;
+	text-align:center;
+	width: 200px;
+}
+
+.TemplateBoxOver
+{
+	color: #333333;
+	font: normal 11px Tahoma;
+	margin-top: 5px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	display: inline;
+	height: 220px;
+	border: 5px solid  #FFCC66;
+	background-color:#FFFFCC;
+	width: 200px;
+}
+
+.plusButton {
+	cursor: pointer;
+}
+.subscriberEventRow {
+	display: none;
+}
+.subscriberEventRow td {
+	border-bottom:1px solid #DBF3D1;
+}
+tr.subscriberEventRowActive td {
+	background-color: #DBF3D1;
+	padding: 3px 3px 3px 5px;
+	border-top: solid 1px #FFF;
+	border-left:1px solid #DBF3D1;
+	border-right:1px solid #DBF3D1;
+	border-bottom:1px solid #DBF3D1;
+}
+tr.subscriberEventRow div.dataArea {
+	background-color: #DBF3D1;
+}
+.subscriberEventRow td {
+	padding: 0 3px 0 5px;
+}
+.subscriberEventRow td.eventtype {
+	font-weight: bold;
+}
+.subscriberEventRow td.dataCol {
+	padding: 0 0 0 70px;
+}
+.subscriberEventTable {
+	margin: 0 10px 10px 10px;
+}
+.subscriberEventTable td {
+	border: none;
+}
+.subscriberEventTable td {
+	vertical-align: top;
+}
+.subscriberEventTable td.eventdate, .subscriberEventTable td.eventnotes {
+	width: 30px;
+}
+#eventAddForm button {
+font-size: 11px;
+}
+#eventAddForm #eventType {
+	width:100%;margin-bottom:4px;
+}
+table#subscriberEvents {
+	margin: 0px;
+}
+table#subscriberEvents td.buttons input {
+	margin-bottom: 11px;
+}
+table#subscriberEvents td.pagination div {
+	margin-bottom: 11px;
+}
+div#eventTypes {
+	position: absolute;
+	margin-top: 15px;
+	height: 150px;
+	overflow: auto;
+	background: #fff;
+	border: 1px solid #000;
+	z-index: 1024;
+	display: none;
+}
+div#eventTypes ul {
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+}
+
+div#eventTypes ul li {
+	margin: 0px;
+	padding:2px;
+	cursor: pointer;
+}
+div#eventTypes ul li.selected {
+	background: #316AC5;
+	color: #fff;
+}
+div#googleCalendarForm {
+	display: none;
+}
+.HelpInfo, p.HelpInfo {
+	background:#FFF1A8 none repeat scroll 0% 0%;
+	color:#000000;
+	margin: 5px 5px 8px 0px;
+	padding:10px;
+}
+
+ul.Folder, ul.Folder li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+
+/* IE 7 hack */
+*:first-child+html ul.Folder li {
+	display: inline;
+}
+
+/* IE 6 Hack */
+* html ul.Folder li {
+	display: inline;
+}
+
+.SortableRowHelper, .SortableRowHelper td, .RowDown td {
+	background: #D5E0F1 !important;
+}
+
+#dragHelper .SortableRow td {
+	background: transparent;
+	border: 0;
+}
+
+#dragHelper .SortableRow .HideOnDrag {
+	display: none;
+}
+
+.IndexPage_GettingStarted_Header {
+	background: url('../../images/start.gif') no-repeat 0 3px;
+	margin: 0 0 0 5px;
+	padding: 0 0 0 22px;
+}
+
+.IndexPage_GettingStarted_Content {
+	padding-left: 15px;
+	background-image: url('../../images/gs_woman.gif');
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.IndexPage_GettingStarted_Content_Header {
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.IndexPage_GettingStarted_Content_Intro {
+	padding-bottom: 10px;
+}
+
+.IndexPage_GettingStarted_Content_Link {
+	font-size: 14px;
+	font-weight: bold;
+	color: #05386D;
+}
+
+/* SL7 Mods */
+.clientSelect
+{
+	position:absolute;
+	top:30px;
+	left:350px;
+}
+
+/* Credits Styles */
+
+.cheading
+{
+	font-size: 22px;
+	font-weight: normal;
+	font-family: Georgia;
+	color:#FF6600;
+}
+	
+
+.subheading
+{
+	font-size:20px;
+	color:#008AE0;
+	font-family:Georgia, Tahoma, San-Serif;
+}
+
+.credits_chosen
+{
+	background:url('../../images/creditschosen_bg.gif') 0 0 repeat;
+	border:1px solid #CDCDCC;
+	width:630px;
+	height:52px;
+	position:relative;
+}
+
+
+.creditamt_txt
+{
+	color:#FF6600;
+	font-size:18px;
+}
+
+
+
+
+#SubscriberViewPicker .ItemContainer{background-color:#FFF;border:1px solid #008CE1;}
+#SubscriberViewPicker .ItemContainer .DropDownMenu a:hover{background-color:#FFFFFF;color:#008CE1;}
+
+.GettingStartedBox .Heading1, .HelpAndSupportBox .Heading1, .DashboardPanel tr td .Heading1, .AccountManagerBox .Heading1, .ExploreSendlabsBox .Heading1{padding:0;height:auto;}
+.GettingStartedBox ol, .HelpAndSupportBox ul{color:#333;font-size:12px;}
+.GettingStartedBox ol{padding-left:20px;margin-left:0;}
+.GettingStartedBox ol li{line-height:170%;}
+.HelpAndSupportBox ul{list-style-type:none;padding-left:0;margin-left:0;}
+.GettingStartedBox{width:313px;border:1px solid #CCC;background-image:url(../../images/gettingStartedBG.jpg);background-repeat:no-repeat;border-bottom:none;}
+.GettingStartedBox .GettingStartedContent{padding:17px 25px;font-size:12px;}
+.HelpAndSupportBox{width:313px;border:1px solid #CCC;background-image:url(../../images/helpSupportBG.jpg);background-repeat:no-repeat;border-top:none;}
+.HelpAndSupportBox .HelpAndSupportContent{padding:17px 25px;font-size:12px;}
+.lightBlueLink{color:#008CE1;text-decoration:none;}
+
+#subscribergraph{width:300px;float:left;}
+
+.AccountManagerBox{width:320px;float:left;}
+.AccountManagerBox .AccountManagerCont{padding:0 43px 0 18px;}
+.AccountManagerBox .AccountManagerCont .imgCase{float:left;margin-top:1em;width:100px;}
+
+.ExploreSendlabsBox{width:290px;float:left;padding-top:0;}
+.ExploreSendlabsBox .imgCase{float:left;padding-top:1em;width:75px;height:76px;}
+
+.Heading1 a{font-family:Georgia, "Times New Roman", Times, serif;}
+
+#SubscriberImportUploadField input{width:185px;}
+
+.fakeTabs{padding-bottom:15px;padding-top:5px;}

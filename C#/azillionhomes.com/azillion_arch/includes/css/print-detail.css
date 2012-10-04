@@ -1,0 +1,70 @@
+
+/* print styles for the search details page */
+
+/* a:after { content: " (" attr(href) ") "; } */
+
+#printLogo { display: block; position: absolute; top: 0; left: 0; }
+
+#breakBefore { page-break-before: always; }
+#breakAfter { page-break-after: always; }
+
+#logo,
+ul#secondaryNavigation,
+ul#previousNextButtons,
+#leftColumn,
+#rightColumn,
+#imageGalleryNav,
+#buttonRow,
+#jumpLinks,
+#footer,
+.headerIcon,
+.screenLogo,
+hr,
+ul.documentsList li a span { display: none !important; }
+
+
+#generalInfo, #contactInfo, #contactInfoSpacer { display: block !important; }
+#topBar { height: 67px; }
+#content { border-color: #ccc; }
+
+#content h1 {
+	height: 30px;
+	margin: 15px 0 0 0;
+	padding: 0 0 0 0;
+	}
+	#mainFocusDetails {
+		width: 650px;
+		w\idth: 309px;
+		margin: 20px 0 0 0;
+		padding: 0 0 0 341px;
+		background: #fff;
+		border: none;
+		display: block;
+		clear: both;
+		height: auto;
+		
+		/* reset for IE */
+		*padding: 0 0 0 10px;
+		*w\idth: 640px;
+		}
+	#mainFocusImage {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		*left: auto;
+		*right: 0px;
+		}
+		
+		
+/* innerContent styles */
+#innerContent { width: 650px; padding: 0; }
+#innerContent div#introText { font-size: 1em !important; }
+#innerContent h2 {  }
+	
+	a.backToTop {
+		font-size: 1px !important;
+		margin: 0;
+		padding: 0;
+		background: none;
+		border-bottom: 1px solid #000 !important;
+		}

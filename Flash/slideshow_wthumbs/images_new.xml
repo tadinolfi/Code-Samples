@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<images >
+     <slide>
+        <image headline="Testing" pusharea="Testing2">App_Images/slideshow/pics/001.jpg</image>
+    </slide>
+  <slide>
+        <image>App_Images/slideshow/pics/002.jpg</image>
+    </slide> 
+     <slide>
+        <image>App_Images/slideshow/pics/003.jpg</image>
+    </slide> 
+     <slide>
+        <image>App_Images/slideshow/pics/004.jpg</image>
+    </slide> 
+</images>

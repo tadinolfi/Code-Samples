@@ -1,0 +1,153 @@
+
+.searchRow {
+	width: 602px;
+		w\idth: 542px;
+	min-height: 70px;
+		min-he\ight: 44px;
+	height: auto !important;
+	height: 70px;
+		he\ight: 44px;
+	padding: 11px 30px 15px 30px;
+	background: #fff;
+	}
+	.alternateSearchRow { background: #f5f5f5; }
+	
+	.searchRow img.searchHeader {
+		float: left;
+		margin-right: 7px;
+		}
+		
+	.searchRow input, .searchRow select {
+		display: block;
+		width: 189px;
+			w\idth: 183px;
+		height: 22px;
+			he\ight: 20px;
+		margin: 6px 0 4px 0;
+		padding: 1px 0 0 4px;
+		color: #333333;
+		font: 1em Tahoma, Arial;
+		border: 1px solid #7f9db9;
+		}
+		.searchRow select {
+			w\idth: 189px;
+			padding: 0;
+			}
+			.searchRow select.minMax {
+				float: left;
+				width: 89px;
+				margin-right: 11px;
+				}
+			.searchRow select option { padding-left: 4px; }
+			
+			
+	/* additional features row / beds baths */
+	#bedBaths {  }
+		#bedBaths label, #bedBaths select {
+			float: left;
+			display: block;
+			}
+			#bedBaths label {
+				color: #666666;
+				padding: 7px 4px 0 0;
+				}
+			#bedBaths select {
+				width: 62px;
+				w\idth: 62px;
+				margin-right: 10px;
+				}
+			#bedBaths select#ctl00_Default_ddlBaths {
+				width: 62px;
+				w\idth: 62px;
+				}
+				
+				
+/* additional criteria content area */
+#additionalCriteria {
+	position: relative;
+	padding: 11px 30px 0 30px;
+	}
+	#additionalCriteria a {
+		color: #333;
+		display: block;
+		text-decoration: none;
+		}
+	#additionalCriteria div#imgPlus, #additionalCriteria div#imgMinus {
+		float: left;
+		margin: 0 6px 0 0;
+		}
+		
+	#additionalCriteriaContent { padding: 0 30px 20px 30px; }
+	
+	#pnlCriteria { margin: 20px 0; }
+	
+		#pnlCriteria ul {  }
+			#pnlCriteria ul li {
+				display: block;
+				clear: left;
+				width: auto !important;
+				margin: 0 0 4px 0;
+					*margin: 0 0 -2px 0;
+				}
+		
+		#pnlCriteria ul li input {
+			float: left;
+			width: auto;
+			border: none;
+			margin: 0 4px 0 0;
+			}
+		#pnlCriteria ul li label {
+			width: auto;
+			font-size: .8em;
+			}
+	
+	/* #pnlCriteria ul {
+		float: left;
+		margin: 0 25px 0 0;
+		color: #666666;
+		font-size: .8em;
+		}
+		#pnlCriteria ul li {
+			clear: left;
+			width: auto !important;
+			margin: 0 0 4px 0;
+			*margin: 0 0 -2px 0;
+			}
+			#pnlCriteria ul li input {
+				width: auto;
+				float: left;
+				}
+			#pnlCriteria ul li label {  } */
+		
+		
+#buttonRow {
+	margin: 0 30px;
+	padding: 14px 0 0 0;
+	border-top: 1px solid #ccc;
+	}
+	#buttonRow a {
+		float: left;
+		display: block;
+		height: 28px;
+		margin-right: 5px;
+		}
+		
+		#buttonRow input {
+			float: left;
+			width: auto;
+			height: auto;
+			}
+		
+		#buttonRow .firstButton {
+			margin: 0 10px 0 0;
+			padding: 0 10px 0 0;
+			border-right: 1px solid #ccc !important;
+			}
+			
+		#buttonRow a#searchButton { width: 87px; background: url(../../images/buttons/search.gif) 0px 0px no-repeat; }
+		#buttonRow a#clearFormButton { width: 118px; background: url(../../images/buttons/clear-form.gif) 0px 0px no-repeat; }
+		#buttonRow a#saveSearchButton { width: 122px; background: url(../../images/buttons/save-search.gif) 0px 0px no-repeat; }
+		
+		#buttonRow a#searchButton:hover,
+		#buttonRow a#clearFormButton:hover,
+		#buttonRow a#saveSearchButton:hover { background-position: 0px -28px; }

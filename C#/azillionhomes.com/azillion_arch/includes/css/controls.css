@@ -1,0 +1,220 @@
+﻿body {
+}
+.quickSearchPopUp {
+	
+	width: 155px;
+	padding: 58px 22px 0 22px;
+	background: #0e3769;
+	overflow: hidden;
+	}
+	
+	.quickSearchPopUp input, .quickSearchPopUp select {
+			width: 172px;
+			w\idth: 175px;
+		height: 22px;
+			he\ight: 18px;
+		color: #666666;
+		font-size: .9em;
+		margin-bottom: 3px;
+		padding: 1px 1px 1px 4px;
+		border: 1px solid #7f9db9;
+		}
+
+		.quickSearchPopUp select {
+			width: 178px;
+			w\idth: 182px;
+		}
+
+		.startDateEndDate {
+			float: left;
+			width: 86px;
+			}
+			.startDateEndDate a {
+				display: block;
+				float: right;
+				width: 21px;
+				height: 22px;
+				background: url(../../images/content/bg-calendar-icon.gif) 0px 0px no-repeat;
+				}
+				.startDateEndDate a:hover { background-position: 0px -22px; }
+				
+			.startDateContainer { margin-right: 10px; }
+			
+		.quickSearchPopUp input.calendar { width: 63px; w\idth: 55px; }
+		
+		.quickSearchPopUp input { padding-top: 2px; he\ight: 17px; }
+		.quickSearchPopUp select { padding-left: 0px; }
+		.quickSearchPopUp select option { padding-left: 4px; }
+		
+		.quickSearchPopUp select.minMax { width: 75px; float: left; }
+		
+		/* for Opera: resizing selects */
+			html:first-child .quickSearchPopUp select { width: 180px; w\idth: 180px; }
+			html:first-child .quickSearchPopUp select.minMax { width: 87px; w\idth: 87px; }
+		/* end Opera work around */
+		
+		.quickSearchPopUp select.priceMin { margin-right: 4px; }
+		
+		.quickSearchPopUp input.quickSearchButton {
+			width: auto;
+			height: auto;
+			border: none;
+			margin-top: 7px;
+			padding: 0 15px 0 0;
+			border-right: 0px solid #35629a;
+			}
+		
+	.quickSearchPopUp a.advancedSearchLink 
+	{
+	    display:none;
+		float: right;
+		width: 0px !important;
+		height: 0px !important; 
+		color: #0e3769;
+		font-size: 0em;
+		margin: 14px 7px 0 0;
+		background: none;
+		}
+		.quickSearchPopUp a.advancedSearchLink strong { color: #71cef5; }
+		.quickSearchPopUp a.advancedSearchLink:hover { color: #71cef5; }
+		.quickSearchPopUp a.advancedSearchLink:hover strong { color: #fff; }
+
+/* calendar */
+#qsCalendar {
+	
+	position:relative;
+	bottom: 0px;
+	left: 6px;
+	width: 203px;
+	height: 158px;
+	background: #0e3769;
+	z-index: 99;
+	}
+	
+	#calendarHeader {
+		color: #6394c6;
+		margin: 6px 0 4px 9px;
+		}
+		#calendarHeader strong.month { color: #fff; }
+		#calendarHeader a.nextMonth { color: #fff; }
+		#calendarHeader a.nextMonth strong { color: #73cef7; }
+	
+	#qsCalendar table {
+		width: 100%;
+		border-collapse: collapse;
+		}
+		#qsCalendar table tr {  }
+		
+			#qsCalendar table tr th, #qsCalendar table tr td {
+				width: 25px;
+				height: 19px;
+				text-align: center;
+				vertical-align: middle;
+				border-bottom: 1px solid #527bad;
+				}
+		
+				#qsCalendar table tr th {
+					color: #fff;
+					font-size: .9em;
+					background: url(../../images/content/bg-calendar-th.gif) 0px 100% no-repeat;
+					}
+				#qsCalendar table tr td { color: #ccc; }
+					#qsCalendar table tr td a { display: block; color: #ccc; }
+					#qsCalendar table tr td a:hover { color: #fff; }
+					#qsCalendar table tr td.selected { color: #ccc; background: #517ca8; }
+						#qsCalendar table tr td.selected a { color: #fff; }
+					
+					#qsCalendar table tr th.spacer, #qsCalendar table tr td.spacer { width: 14px; background: none; }
+					
+			#qsCalendar table tr.lastRow td { border: none; }
+					
+/* close button */
+a.close {
+	position:relative;
+	display: block;
+
+	
+	color: #fff;
+	font-size: .9em;
+	background: url(../../images/home/bg-close.gif) 100% 3px no-repeat;
+	}
+	a.close:hover {
+		color: #71cef5 !important;
+		background-position: 100% -28px;
+		}
+
+#qsRentals {
+	
+	position:relative;
+	background: #0e3769 url(../../images/home/qs-hdr-rentals.gif) 15px 18px no-repeat;
+	z-index: 10;
+	}
+	
+#qsSales {
+
+	position:relative;
+	height: 239px;
+		he\ight: 181px;
+	background: #0e3769 url(../../images/home/qs-hdr-sales.gif) 15px 18px no-repeat;
+	z-index: 10;
+	}
+	
+#qsOpenHouses {
+
+	position:relative;
+	height: 275px;
+		he\ight: 240px;
+	background: #0e3769 url(../../images/home/qs-hdr-open-houses.gif) 15px 17px no-repeat;
+	z-index: 10;
+	}
+	
+#qsAuctions {
+	position:relative;
+	
+	width: 215px;
+		w\idth: 167px;
+	height: 258px;
+		he\ight: 250px;
+	padding: 58px 18px 0 14px;
+	background: #0e3769 url(../../images/home/qs-hdr-auctions.gif) 15px 17px no-repeat;
+	z-index: 10;
+	}
+	
+#leftColumn #qsRentals,
+#leftColumn #qsSales,
+#leftColumn #qsOpenHouses,
+#leftColumn #qsAuctions {
+	width: 184px;
+	padding-left: 8px;
+	padding-right: 7px;
+	position:relative;
+	height: 180px;
+	z-index: 10;
+	}
+
+#leftColumn #qsRentals {	
+	background: #0e3769 url(../../images/home/qs-hdr-rentals-sm.gif) 22px 26px no-repeat;
+}
+
+#leftColumn #qsSales {	
+	background: #0e3769 url(../../images/home/qs-hdr-sales-sm.gif) 22px 26px no-repeat;
+}
+
+#leftColumn #qsOpenHouses {	
+	background: #0e3769 url(../../images/home/qs-hdr-open-houses-sm.gif) 22px 26px no-repeat;
+}
+
+#leftColumn #qsAuctions {	
+	background: #0e3769 url(../../images/home/qs-hdr-auctions.gif) 22px 26px no-repeat;
+}
+
+.quickSearchPopUp input.calendar { width: 55px; _width: 50px; }
+
+.quickSearchPopUp input { padding-top: 2px; he\ight: 17px; }
+.quickSearchPopUp select { padding-left: 0px; }
+.quickSearchPopUp select option { padding-left: 4px; }
+
+.quickSearchPopUp select.minMax { width: 89px; w\idth: 89px; }
+.quickSearchPopUp select.max { margin-left: 4px; }
+
+.quickSearchPopUp .endDate { margin-right: 2px; _margin-right: 1px; float: right; }

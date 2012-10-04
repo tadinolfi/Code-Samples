@@ -1,0 +1,42 @@
+<anychart>
+  <settings>
+    <animation enabled="True" />
+  </settings>
+  <charts>
+    <chart plot_type="Pie">
+	  <data_plot_settings enable_3d_mode="True">
+	    <pie_series>
+		  <tooltip_settings enabled="true">
+			<format>
+			{%SeriesName} - {%Name} - {%YPercentOfSeries}{numDecimals:2}%
+			</format>
+		  </tooltip_settings>
+		  <label_settings enabled="True">
+		    <font color="White">
+		      <effects>
+		        <drop_shadow enabled="True"/>
+		      </effects>
+		    </font>
+		    <position anchor="Center" valign="Center" halign="Center" padding="0"/>
+		    <format>{%YPercentOfSeries}{numDecimals:1}%</format>
+		  </label_settings>
+		</pie_series>
+	  </data_plot_settings>
+      <data>
+        <series name="Email Campaign Summary Chart">
+          <point name="Opened" y="305" color="#F98F25" />
+          <point name="Unopened" y="2398" color="#FFBE21" />
+          <point name="Bounced" y="71" color="#84B221" />
+        </series>
+      </data>
+      <chart_settings>
+        <title enabled="False"/>
+		<chart_background>
+		  <corners type="Square" />
+		  <border enabled="False" />
+		  <fill enabled="False" />
+		</chart_background>		
+      </chart_settings>
+    </chart>
+  </charts>
+</anychart>

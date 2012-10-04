@@ -1,0 +1,49 @@
+.searchResults { width:602px; font-size:11px;}
+.searchResults td
+{
+	border-collapse:collapse;
+	border-style:hidden;
+	vertical-align:top;
+	height:92px;
+	background-image:url('../../images/content/search-results/td_bg.gif');
+	background-repeat:no-repeat; 
+	background-position:right;
+}
+
+.searchResults .town, .searchResults .datePosted, .searchResults .numberOfBeds, .searchResults .numberOfBaths, .searchResults .listPrice
+{
+	padding:10px;
+}
+
+.searchResults td.listPrice
+{
+	font-weight:bold;
+	background-position:left;
+}
+
+/* Pager Styles */
+
+.searchDetails {width:200px; float:left; padding:8px 0 0 10px; color:#666;}
+.searchDetails img { vertical-align:text-top;}
+.pagerLinks {width:auto; float:right; margin:10px 0 -11px 0; padding:0;}
+.pagerLinks a {display:block; float:left; width:20px; border-left:1px solid #ccc; height:23px; text-align:center; font-weight:bold;}
+.pagerLinks a:link, .pagerLinks a:visited {color:#1e508e;}
+.pagerLinks a:hover, .pagerLinks a:active {color:#6699cc;}
+.pagerLinks input.pagerNavLink {border:none; display:block; float:left;}
+.pageLinks {border-right:1px solid #ccc; height:23px; float:left;}
+.pagerLinks a.activePage {color:#808080; background-image:url('../../images/content/search-results/page_link_bg.gif');}
+tr.searchPagination td { border:hidden; height:35px; border-bottom:1px solid #ccc;}
+th {color:#fff; border-top:1px solid #ccc; border-right:1px solid #ccc; padding:0; height:28px; background-image:url('../../images/content/search-results/th_bg.gif'); background-position:top;}
+th.sortTitle {padding-left:10px;}
+th a {display:block; color:#fff; background-image:url('../../images/content/search-results/th_bg.gif'); margin:0; padding:0; height:12px; padding:8px 10px;}
+th a:link, th a:visited {background-position:top; color:#fff;}
+th a:hover, th a:active {background-position:bottom; color:#fff;}
+
+.resultsDetail {width:234px; position:relative;}
+.resultsDetail .photoDiv {position:relative; margin:0;}
+.resultsDetail .propertyPhoto {display:block; border:1px solid #124787; margin:10px 0 0 10px; position:absolute; top:0; left:0;}
+.resultsDetail div {width:104px; margin:10px 0 0 120px;}
+.resultsDetail strong a {color:#124787;}
+.resultsDetail td span {display:inline; margin:auto;}
+
+#newSearchButton {margin-top:10px;}
