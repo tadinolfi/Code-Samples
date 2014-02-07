@@ -1,1 +1,0 @@
-<a href="index.php?Page=Subscribers&Action=Manage&Lists[]=%%GLOBAL_ListID%%">%%LNG_ViewContactsAction%%</a>&nbsp;&nbsp;

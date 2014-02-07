@@ -1,2 +1,0 @@
-<ul id="popularhelparticles">
-</ul>
